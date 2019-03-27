@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffa600"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_Logout"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:text="Log out"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:onClick="Logout"
+        android:background="#e66b07"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_Changepass"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:text="Change Password"
+        android:textStyle="bold"
+        android:background="#e66b07"
+        android:layout_height="50dp" />
+
+</LinearLayout>

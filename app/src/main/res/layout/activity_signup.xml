@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#c9275a"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <EditText
+        android:id="@+id/edt_semail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:hint="Type your email" />
+    <EditText
+        android:id="@+id/edt_spassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:hint="Type your password" />
+    <Button
+        android:id="@+id/btn_Signup"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:background="#e66b07"
+        android:onClick="Registered"
+        android:layout_height="50dp" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+</LinearLayout>
